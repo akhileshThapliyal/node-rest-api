@@ -1,0 +1,25 @@
+{
+  "name": "rest-api-sandbox",
+  "version": "1.0.0",
+  "description": "res api sandbox in nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akhileshThapliyal/node-rest-api-sandbox.git"
+  },
+  "keywords": [
+    "rest-api"
+  ],
+  "author": "akhilesh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akhileshThapliyal/node-rest-api-sandbox/issues"
+  },
+  "homepage": "https://github.com/akhileshThapliyal/node-rest-api-sandbox#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
