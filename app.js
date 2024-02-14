@@ -14,6 +14,7 @@ const whitelist = ['http://localhost:4200', 'https://akhileshthapliyal.github.io
 
 const corsOptions = {
   origin: function (origin, callback) {
+    console.log("origin => ", origin);
     if (whitelist.indexOf(origin) !== -1) {
       callback(null, true)
     } else {
