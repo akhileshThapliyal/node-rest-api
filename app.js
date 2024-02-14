@@ -7,7 +7,10 @@ app.use(express.json());
 
 const PORT = process.env.PORT || 3000;
 
-const whitelist = ['http://localhost:4200']; // assuming front-end application is running on localhost port 3000
+console.log("process.env.PORT => ", process.env.PORT);
+console.log("PORT => ", PORT);
+
+const whitelist = ['http://localhost:4200', 'https://akhileshthapliyal.github.io/angular-sandbox/frontend/browser', 'https://node-api-service-gwkv.onrender.com']; // assuming front-end application is running on localhost port 3000
 
 const corsOptions = {
   origin: function (origin, callback) {
